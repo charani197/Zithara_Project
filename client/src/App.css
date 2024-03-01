@@ -1,0 +1,37 @@
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(128, 53, 0);
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 70%; 
+  margin: 20px auto;
+  border: 2px solid black; 
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #262525;
+  text-align: left;
+  padding: 10px;
+}
+
+
+.data-table th {
+  background-color: #ff9500;
+  color: rgba(255, 255, 255, 0.967);
+}
+
+
+.data-table td:nth-child(4) {
+  color: #007bff;
+}
+
+.search-input {
+  margin-bottom: 10px;
+}
